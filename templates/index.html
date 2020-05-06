@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% for record in records %}
+    <h3 class="display-4">
+        {{loop.index}} - {{record.postID}}, {{record.address}}
+    </h3>
+    
+{% endfor %}
+
+{% endblock %}
