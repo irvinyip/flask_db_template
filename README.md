@@ -8,9 +8,11 @@ flask-script
 
 model.py stores the DB model and manage the DB with flask-script module, to initialize/update the database structure:
 
-python model.py db init
-python model.py db migrate
-python model.py db upgrade
+`python model.py db init`
+
+`python model.py db migrate`
+
+`python model.py db upgrade`
 
 
 `model_query.py` demostrates how to query, insert, update, delete records with flask-sqlalchemy
